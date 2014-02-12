@@ -12,6 +12,7 @@ ul {
 li {
 	list-style: none;
 }
+
 /*= clearfix */
 .clearfix:after {
 	display: block;
@@ -41,6 +42,8 @@ li {
 	background-color: #333;
 	left: 0;
 }
+
+/*= side bar elements */
 .sidebar {
 	width: 38%;
 	left: -62%;
@@ -73,31 +76,6 @@ li {
 	color: #fb0;
 }
 
-.image-gallery li {
-	float: left;
-	margin: 6px;
-}
-
-.image-gallery img {
-	border: 3px double #333;
-}
-
-.right-rotate{
-	-webkit-transform:rotate(1.2deg);
-}
-
-.left-rotate{
-	-webkit-transform:rotate(-1.2deg);
-}
-
-.right-rotate:hover {
-	-webkit-transform:rotate(-1.2deg);
-}
-
-.left-rotate:hover {
-	-webkit-transform:rotate(1.2deg);
-}
-
 .social-links {
 	margin-bottom: 50px;
 }
@@ -115,4 +93,43 @@ li {
 .tagline {
 	font-family: georgia, serif;
 	font-weight: normal;
+}
+
+/*= main content*/
+
+.image-gallery li {
+	float: left;
+	margin: 6px;
+}
+
+.image-gallery img {
+	border: 3px double #333;
+}
+
+.right-rotate{
+	-webkit-transform: rotate(1.2deg);
+	-moz-transform: rotate(1.2deg);
+    -ms-transform: rotate(1.2deg);
+    transform: rotate(1.2deg);
+}
+
+.left-rotate{
+	-webkit-transform: rotate(-1.2deg);
+	-moz-transform: rotate(-1.2deg);
+    -ms-transform: rotate(-1.2deg);
+    transform: rotate(-1.2deg);
+}
+
+.right-rotate:hover{
+	-webkit-transform: rotate(-1.2deg);
+	-moz-transform: rotate(-1.2deg);
+    -ms-transform: rotate(-1.2deg);
+    transform: rotate(-1.2deg);
+}
+
+.left-rotate:hover{
+	-webkit-transform: rotate(1.2deg);
+	-moz-transform: rotate(1.2deg);
+    -ms-transform: rotate(1.2deg);
+    transform: rotate(1.2deg);
 }
