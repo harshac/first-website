@@ -1,6 +1,7 @@
 /*= reset */
 body {
-	background: #000;
+	margin: 0;
+	background: #fcfcfc;
 	color: #ccc;
 	font: 16px "lucida grande",arial, sans-serif;
 }
@@ -30,6 +31,15 @@ li {
 .main {
 	width: 62%;
 	right: -38%;
+}
+.container:before {
+	display: block;
+	content: "";
+	width: 38%;
+	height: 100%;
+	position: fixed;
+	background-color: #333;
+	left: 0;
 }
 .sidebar {
 	width: 38%;
