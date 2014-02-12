@@ -45,9 +45,17 @@ li {
 	width: 38%;
 	left: -62%;
 }
-
+.logo{
+	text-align: center;
+	margin-top: 38px;
+	margin-right: 60px;
+}
 .nav {
 	margin: 60px 0;
+}
+.footer{
+	position: fixed;
+	bottom: 0;
 }
 .nav li {
 	text-transform: uppercase;
@@ -74,6 +82,22 @@ li {
 	border: 3px double #333;
 }
 
+.right-rotate{
+	-webkit-transform:rotate(1.2deg);
+}
+
+.left-rotate{
+	-webkit-transform:rotate(-1.2deg);
+}
+
+.right-rotate:hover {
+	-webkit-transform:rotate(-1.2deg);
+}
+
+.left-rotate:hover {
+	-webkit-transform:rotate(1.2deg);
+}
+
 .social-links {
 	margin-bottom: 50px;
 }
@@ -85,6 +109,8 @@ li {
 
 .headline {
 	text-transform: uppercase;
+	font-family: "Marko One", serif;
+	font-size: 30px;
 }
 .tagline {
 	font-family: georgia, serif;
