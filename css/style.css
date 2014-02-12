@@ -11,20 +11,29 @@ ul {
 li {
 	list-style: none;
 }
+/*= clearfix */
+.clearfix:after {
+	display: block;
+	content: "";
+	clear: both;
+}
 
 /*= page styles */
 .container {
 	width: 1024px;
 	margin: 0 auto;
 }
-
+.col {
+	float: left;
+	position: relative;
+}
 .main {
-	float: right;
 	width: 62%;
+	right: -38%;
 }
 .sidebar {
-	float: left;
 	width: 38%;
+	left: -62%;
 }
 
 .nav {
@@ -50,20 +59,18 @@ li {
 	float: left;
 	margin: 6px;
 }
+
 .image-gallery img {
 	border: 6px solid #fff;
 }
+
 .social-links {
 	margin-bottom: 50px;
-	overflow: hidden;
 }
+
 .social-links li {
 	float: left;
 	margin: 0 10px;
-}
-
-.copyright {
-	clear: left;
 }
 
 .headline {
