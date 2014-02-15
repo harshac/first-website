@@ -109,36 +109,48 @@ li {
 .image-gallery li {
 	float: left;
 	margin: 7px;
+	position: relative;
 }
 
 .details{
 	display: none;
+	left: 0;
+	top: 50px;
+	position: absolute;
 }
 
 .image-odd{
-	-webkit-transform: rotate(2deg);
-	-moz-transform: rotate(2deg);
-    -ms-transform: rotate(2deg);
-    transform: rotate(2deg);
+	-webkit-transform: rotate(2.5deg);
+	-moz-transform: rotate(2.5deg);
+    -ms-transform: rotate(2.5deg);
+    transform: rotate(2.5deg);
 }
 
 .image-even{
-	-webkit-transform: rotate(-2deg);
-	-moz-transform: rotate(-2deg);
-    -ms-transform: rotate(-2deg);
-    transform: rotate(-2deg);
+	-webkit-transform: rotate(-2.5deg);
+	-moz-transform: rotate(-2.5deg);
+    -ms-transform: rotate(-2.5deg);
+    transform: rotate(-2.5deg);
+}
+
+.image-odd:hover~.details{
+    display: block;
 }
 
 .image-odd:hover{
-	-webkit-transform: rotate(-2deg);
-	-moz-transform: rotate(-2deg);
-    -ms-transform: rotate(-2deg);
-    transform: rotate(-2deg);
+	-webkit-transform: rotate(-1deg);
+	-moz-transform: rotate(-1deg);
+    -ms-transform: rotate(-1deg);
+    transform: rotate(-1deg);
+}
+
+.image-even:hover~.details{
+    display: block;
 }
 
 .image-even:hover{
-	-webkit-transform: rotate(2deg);
-	-moz-transform: rotate(2deg);
-    -ms-transform: rotate(2deg);
-    transform: rotate(2deg);
+	-webkit-transform: rotate(1deg);
+	-moz-transform: rotate(1deg);
+    -ms-transform: rotate(1deg);
+    transform: rotate(1deg);
 }
