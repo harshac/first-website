@@ -2,8 +2,9 @@
 body {
 	margin: 0;
 	background: #fcfcfc;
-	color: #ccc;
+	color: #fcfcfc;
 	font: 16px "lucida grande",arial, sans-serif;
+	text: 000;
 }
 ul {
 	margin: 0;
@@ -32,7 +33,9 @@ li {
 .main {
 	width: 62%;
 	right: -38%;
+	margin-top: 10px;
 }
+
 .container:before {
 	display: block;
 	content: "";
@@ -48,18 +51,24 @@ li {
 	width: 38%;
 	left: -62%;
 }
+
 .logo{
 	text-align: center;
 	margin-top: 38px;
 	margin-right: 60px;
+	position: fixed;
 }
+
 .nav {
-	margin: 60px 0;
+	margin: 250px 0;
+	position: fixed;	
 }
+
 .footer{
 	position: fixed;
 	bottom: 0;
 }
+
 .nav li {
 	text-transform: uppercase;
 }
@@ -99,37 +108,37 @@ li {
 
 .image-gallery li {
 	float: left;
-	margin: 6px;
+	margin: 7px;
 }
 
-.image-gallery img {
-	border: 3px double #333;
+.details{
+	display: none;
 }
 
-.right-rotate{
-	-webkit-transform: rotate(1.2deg);
-	-moz-transform: rotate(1.2deg);
-    -ms-transform: rotate(1.2deg);
-    transform: rotate(1.2deg);
+.image-odd{
+	-webkit-transform: rotate(2deg);
+	-moz-transform: rotate(2deg);
+    -ms-transform: rotate(2deg);
+    transform: rotate(2deg);
 }
 
-.left-rotate{
-	-webkit-transform: rotate(-1.2deg);
-	-moz-transform: rotate(-1.2deg);
-    -ms-transform: rotate(-1.2deg);
-    transform: rotate(-1.2deg);
+.image-even{
+	-webkit-transform: rotate(-2deg);
+	-moz-transform: rotate(-2deg);
+    -ms-transform: rotate(-2deg);
+    transform: rotate(-2deg);
 }
 
-.right-rotate:hover{
-	-webkit-transform: rotate(-1.2deg);
-	-moz-transform: rotate(-1.2deg);
-    -ms-transform: rotate(-1.2deg);
-    transform: rotate(-1.2deg);
+.image-odd:hover{
+	-webkit-transform: rotate(-2deg);
+	-moz-transform: rotate(-2deg);
+    -ms-transform: rotate(-2deg);
+    transform: rotate(-2deg);
 }
 
-.left-rotate:hover{
-	-webkit-transform: rotate(1.2deg);
-	-moz-transform: rotate(1.2deg);
-    -ms-transform: rotate(1.2deg);
-    transform: rotate(1.2deg);
+.image-even:hover{
+	-webkit-transform: rotate(2deg);
+	-moz-transform: rotate(2deg);
+    -ms-transform: rotate(2deg);
+    transform: rotate(2deg);
 }
