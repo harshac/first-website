@@ -133,22 +133,18 @@ li {
     transform: rotate(-2.5deg);
 }
 
-.image-odd:hover~.details{
+.image-gallery li:hover>.details{
     display: block;
 }
 
-.image-odd:hover{
+.image-gallery li:hover > .image-odd{
 	-webkit-transform: rotate(-1deg);
 	-moz-transform: rotate(-1deg);
     -ms-transform: rotate(-1deg);
     transform: rotate(-1deg);
 }
 
-.image-even:hover~.details{
-    display: block;
-}
-
-.image-even:hover{
+.image-gallery li:hover > .image-even{
 	-webkit-transform: rotate(1deg);
 	-moz-transform: rotate(1deg);
     -ms-transform: rotate(1deg);
