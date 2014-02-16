@@ -117,9 +117,10 @@ li {
 	top: 0;
 	left: 0;
 	position: absolute;
-	height:100%;
+	height:140px;
 	width: 100%;
 	background-color: #000;
+	padding-top: 50px;
 }
 
 .image-odd{
@@ -138,19 +139,12 @@ li {
 
 .image-gallery li:hover>.details{
     display: block;
-    opacity: 0.6;
+    opacity: 0.6;    
 }
 
-.image-gallery li:hover > .image-odd{
-	-webkit-transform: rotate(-1deg);
-	-moz-transform: rotate(-1deg);
-    -ms-transform: rotate(-1deg);
-    transform: rotate(-1deg);
-}
-
-.image-gallery li:hover > .image-even{
-	-webkit-transform: rotate(1deg);
-	-moz-transform: rotate(1deg);
-    -ms-transform: rotate(1deg);
-    transform: rotate(1deg);
+.image-gallery li:hover img{
+	-webkit-transform: rotate(-0deg);
+	-moz-transform: rotate(-0deg);
+    -ms-transform: rotate(-0deg);
+    transform: rotate(-0deg);
 }
