@@ -114,9 +114,12 @@ li {
 
 .details{
 	display: none;
+	top: 0;
 	left: 0;
-	top: 50px;
 	position: absolute;
+	height:100%;
+	width: 100%;
+	background-color: #000;
 }
 
 .image-odd{
@@ -135,6 +138,7 @@ li {
 
 .image-gallery li:hover>.details{
     display: block;
+    opacity: 0.6;
 }
 
 .image-gallery li:hover > .image-odd{
