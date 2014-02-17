@@ -129,6 +129,11 @@ li {
 	-moz-transform: rotate(2.5deg);
     -ms-transform: rotate(2.5deg);
     transform: rotate(2.5deg);
+
+    -webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    transition: 0.2s;
 }
 
 .image-even{
@@ -136,6 +141,11 @@ li {
 	-moz-transform: rotate(-2.5deg);
     -ms-transform: rotate(-2.5deg);
     transform: rotate(-2.5deg);
+
+    -webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    transition: 0.2s;
 }
 
 .image-gallery li:hover>.details{
