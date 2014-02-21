@@ -122,6 +122,8 @@ li {
 	background-color: rgba(0,0,0,0.6);
 	padding-top: 70px;
 	text-align: center;
+	opacity: 0;
+	-webkit-transition: opacity 0.2s linear;
 }
 
 .image-odd{
@@ -150,6 +152,7 @@ li {
 
 .image-gallery li:hover>.details{
     display: block;
+    opacity: 1;
 }
 
 .image-gallery li:hover img{
