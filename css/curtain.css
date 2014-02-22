@@ -1,5 +1,5 @@
 .curtain{
-	border-bottom: 100px solid #f00;
+	border-bottom: 100px solid #b20;
 	border-top: 0px;
 	border-left: 0;
 	border-right: 0;
@@ -29,6 +29,16 @@ body{
 	border: 80px solid #000;
 	position: fixed;
 	z-index: 100;
+}
+
+
+.behind-the-curtain{
+	position: fixed;
+	width: 500px;
+	top: 100px;
+	left: 500px;
+	z-index: -100;
+	font-size: 120px;
 }
 
 .row{
