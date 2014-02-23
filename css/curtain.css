@@ -41,6 +41,12 @@ body{
 	font-size: 120px;
 }
 
+.instructions{
+	position: fixed;
+	top: 600px;
+	left: 600px;
+}
+
 .row{
 	position: absolute;
 	top:0;
